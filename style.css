@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0e0e0e;
+    color: #fff;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: rgba(0,0,0,0.8);
+}
+
+.logo {
+    font-size: 26px;
+    color: #f5b400;
+}
+
+.logo span {
+    color: white;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact span {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    background: url("garage.jpg") center/cover no-repeat;
+    min-height: 80vh;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h2 {
+    color: #f5b400;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-text button {
+    background: #f5b400;
+    color: black;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 400px;
+}
